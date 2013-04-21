@@ -1,0 +1,2183 @@
+	<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Géothermie dans le monde.kmz</name>
+	<visibility>0</visibility>
+	<Style id="sh_circle-grey">
+		<IconStyle>
+			<color>ff00ff55</color>
+			<scale>0.6</scale>
+			<Icon>
+				<href>http://earthquake.usgs.gov/images/ge/circle-grey.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<font face="Verdana"><table width="400"><tr><td><img src="http://earthquake.usgs.gov/images/ge/banner.jpg" alt="USGS" width="400" height="40" />$[description]</td></tr><tr><td align="right"><img src="http://earthquake.usgs.gov/images/ge/anss.gif" alt="ANSS" width="100" height="31" /></td></tr><tr><td><hr size="1" height="1" /><a href="http://earthquake.usgs.gov/eqcenter/catalogs/eqs7day-age.kmz"><img src="http://earthquake.usgs.gov/images/ge/ge.gif" alt="GE" width="18" height="18" border="0" />Real-time earthquakes (M 1+)</a></td></tr></table></font>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="plateName000">
+		<IconStyle>
+			<heading>0</heading>
+			<Icon>
+			</Icon>
+			<gx:headingMode>northUp</gx:headingMode>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_info0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_info0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_info0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_info0">
+		<IconStyle>
+			<color>080500fd</color>
+			<scale>0.933333</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/info.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>00ffffff</color>
+		</LabelStyle>
+	</Style>
+	<Style id="sn_noicon030">
+		<IconStyle>
+			<color>ff0000ff</color>
+			<Icon>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>1.8</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sn_circle-grey">
+		<IconStyle>
+			<color>ff00aaff</color>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://earthquake.usgs.gov/images/ge/circle-grey.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<font face="Verdana"><table width="400"><tr><td><img src="http://earthquake.usgs.gov/images/ge/banner.jpg" alt="USGS" width="400" height="40" />$[description]</td></tr><tr><td align="right"><img src="http://earthquake.usgs.gov/images/ge/anss.gif" alt="ANSS" width="100" height="31" /></td></tr><tr><td><hr size="1" height="1" /><a href="http://earthquake.usgs.gov/eqcenter/catalogs/eqs7day-age.kmz"><img src="http://earthquake.usgs.gov/images/ge/ge.gif" alt="GE" width="18" height="18" border="0" />Real-time earthquakes (M 1+)</a></td></tr></table></font>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin0020">
+		<LineStyle>
+			<color>ff00ffff</color>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_circle-grey2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_circle-grey2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_circle-grey</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_info0">
+		<IconStyle>
+			<color>080500fd</color>
+			<scale>0.8</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/info.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>00ffffff</color>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="msn_volcano64_n0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_volcano64_n0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_volcano64_h0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_circle-grey0">
+		<IconStyle>
+			<color>ff00aaff</color>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://earthquake.usgs.gov/images/ge/circle-grey.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<font face="Verdana"><table width="400"><tr><td><img src="http://earthquake.usgs.gov/images/ge/banner.jpg" alt="USGS" width="400" height="40" />$[description]</td></tr><tr><td align="right"><img src="http://earthquake.usgs.gov/images/ge/anss.gif" alt="ANSS" width="100" height="31" /></td></tr><tr><td><hr size="1" height="1" /><a href="http://earthquake.usgs.gov/eqcenter/catalogs/eqs7day-age.kmz"><img src="http://earthquake.usgs.gov/images/ge/ge.gif" alt="GE" width="18" height="18" border="0" />Real-time earthquakes (M 1+)</a></td></tr></table></font>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="IconStyle0021">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/sunny.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff7fffff</color>
+			<scale>0.8</scale>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_circle-grey300">
+		<IconStyle>
+			<color>ff0000ff</color>
+			<scale>0.6</scale>
+			<Icon>
+				<href>http://earthquake.usgs.gov/images/ge/circle-grey.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<font face="Verdana"><table width="400"><tr><td><img src="http://earthquake.usgs.gov/images/ge/banner.jpg" alt="USGS" width="400" height="40" />$[description]</td></tr><tr><td align="right"><img src="http://earthquake.usgs.gov/images/ge/anss.gif" alt="ANSS" width="100" height="31" /></td></tr><tr><td><hr size="1" height="1" /><a href="http://earthquake.usgs.gov/eqcenter/catalogs/eqs7day-age.kmz"><img src="http://earthquake.usgs.gov/images/ge/ge.gif" alt="GE" width="18" height="18" border="0" />Real-time earthquakes (M 1+)</a></td></tr></table></font>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="IconStyle00210">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/sunny.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff7fffff</color>
+			<scale>0.6</scale>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_circle-grey11">
+		<IconStyle>
+			<color>ff0000ff</color>
+			<scale>0.6</scale>
+			<Icon>
+				<href>http://earthquake.usgs.gov/images/ge/circle-grey.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<font face="Verdana"><table width="400"><tr><td><img src="http://earthquake.usgs.gov/images/ge/banner.jpg" alt="USGS" width="400" height="40" />$[description]</td></tr><tr><td align="right"><img src="http://earthquake.usgs.gov/images/ge/anss.gif" alt="ANSS" width="100" height="31" /></td></tr><tr><td><hr size="1" height="1" /><a href="http://earthquake.usgs.gov/eqcenter/catalogs/eqs7day-age.kmz"><img src="http://earthquake.usgs.gov/images/ge/ge.gif" alt="GE" width="18" height="18" border="0" />Real-time earthquakes (M 1+)</a></td></tr></table></font>]]></text>
+		</BalloonStyle>
+	</Style>
+	<StyleMap id="grey22">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inactive-grey0200</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#active-grey5</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="PolyStyle0221">
+		<LabelStyle>
+			<color>00000000</color>
+			<scale>0</scale>
+		</LabelStyle>
+		<PolyStyle>
+			<color>ff0000e6</color>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_noicon610">
+		<IconStyle>
+			<Icon>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>1.8</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="sn_circle-grey0">
+		<IconStyle>
+			<color>ff00ff55</color>
+			<scale>0.8</scale>
+			<Icon>
+				<href>http://earthquake.usgs.gov/images/ge/circle-grey.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<font face="Verdana"><table width="400"><tr><td><img src="http://earthquake.usgs.gov/images/ge/banner.jpg" alt="USGS" width="400" height="40" />$[description]</td></tr><tr><td align="right"><img src="http://earthquake.usgs.gov/images/ge/anss.gif" alt="ANSS" width="100" height="31" /></td></tr><tr><td><hr size="1" height="1" /><a href="http://earthquake.usgs.gov/eqcenter/catalogs/eqs7day-age.kmz"><img src="http://earthquake.usgs.gov/images/ge/ge.gif" alt="GE" width="18" height="18" border="0" />Real-time earthquakes (M 1+)</a></td></tr></table></font>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="PolyStyle0021">
+		<LabelStyle>
+			<color>00000000</color>
+			<scale>0</scale>
+		</LabelStyle>
+		<PolyStyle>
+			<color>ffbeffff</color>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_circle-grey30">
+		<IconStyle>
+			<color>ff0000ff</color>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://earthquake.usgs.gov/images/ge/circle-grey.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<font face="Verdana"><table width="400"><tr><td><img src="http://earthquake.usgs.gov/images/ge/banner.jpg" alt="USGS" width="400" height="40" />$[description]</td></tr><tr><td align="right"><img src="http://earthquake.usgs.gov/images/ge/anss.gif" alt="ANSS" width="100" height="31" /></td></tr><tr><td><hr size="1" height="1" /><a href="http://earthquake.usgs.gov/eqcenter/catalogs/eqs7day-age.kmz"><img src="http://earthquake.usgs.gov/images/ge/ge.gif" alt="GE" width="18" height="18" border="0" />Real-time earthquakes (M 1+)</a></td></tr></table></font>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin5000">
+		<LineStyle>
+			<color>ff00ff00</color>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_circle-grey0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_circle-grey</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_circle-grey0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="grey03">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inactive-grey01</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#active-grey01</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_noicon10">
+		<IconStyle>
+			<Icon>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>1.7</scale>
+		</LabelStyle>
+	</Style>
+	<Style id="KC121110231113212311214211210">
+		<IconStyle>
+			<Icon>
+				<href>http://kh.google.com:80/flatfile?lf-0-icons/volcano64_n.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.7</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<LineStyle>
+			<antialias>0</antialias>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style>
+	<Style id="inactive-grey1">
+		<IconStyle>
+			<color>ff00aaff</color>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://earthquake.usgs.gov/images/ge/circle-grey.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>00ffffff</color>
+			<scale>0</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<font face="Verdana"><table width="400"><tr><td><img src="http://earthquake.usgs.gov/images/ge/banner.jpg" alt="USGS" width="400" height="40" />$[description]</td></tr><tr><td align="right"><img src="http://earthquake.usgs.gov/images/ge/anss.gif" alt="ANSS" width="100" height="31" /></td></tr><tr><td><hr size="1" height="1" /><a href="http://earthquake.usgs.gov/eqcenter/catalogs/eqs7day-age.kmz"><img src="http://earthquake.usgs.gov/images/ge/ge.gif" alt="GE" width="18" height="18" border="0" />Real-time earthquakes (M 1+)</a></td></tr></table></font>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="KJ1401142131122113112111000">
+		<IconStyle>
+			<scale>1.125</scale>
+			<Icon>
+				<href>http://kh.google.com:80/flatfile?lf-0-icons/volcano64_h.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.77</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<LineStyle>
+			<antialias>0</antialias>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style>
+	<Style id="inactive-grey01">
+		<IconStyle>
+			<color>ff00ff00</color>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://earthquake.usgs.gov/images/ge/circle-grey.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<font face="Verdana"><table width="400"><tr><td><img src="http://earthquake.usgs.gov/images/ge/banner.jpg" alt="USGS" width="400" height="40" />$[description]</td></tr><tr><td align="right"><img src="http://earthquake.usgs.gov/images/ge/anss.gif" alt="ANSS" width="100" height="31" /></td></tr><tr><td><hr size="1" height="1" /><a href="http://earthquake.usgs.gov/eqcenter/catalogs/eqs7day-age.kmz"><img src="http://earthquake.usgs.gov/images/ge/ge.gif" alt="GE" width="18" height="18" border="0" />Real-time earthquakes (M 1+)</a></td></tr></table></font>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="IconStyle0020">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/sunny.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff7fffff</color>
+			<scale>0.6</scale>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="PolyStyle0110">
+		<LabelStyle>
+			<color>00000000</color>
+			<scale>0</scale>
+		</LabelStyle>
+		<PolyStyle>
+			<color>ff00ffff</color>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin4000">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_circle-grey21">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_circle-grey10</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_circle-grey300</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_circle-grey10">
+		<IconStyle>
+			<color>ff0000ff</color>
+			<scale>0.6</scale>
+			<Icon>
+				<href>http://earthquake.usgs.gov/images/ge/circle-grey.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<font face="Verdana"><table width="400"><tr><td><img src="http://earthquake.usgs.gov/images/ge/banner.jpg" alt="USGS" width="400" height="40" />$[description]</td></tr><tr><td align="right"><img src="http://earthquake.usgs.gov/images/ge/anss.gif" alt="ANSS" width="100" height="31" /></td></tr><tr><td><hr size="1" height="1" /><a href="http://earthquake.usgs.gov/eqcenter/catalogs/eqs7day-age.kmz"><img src="http://earthquake.usgs.gov/images/ge/ge.gif" alt="GE" width="18" height="18" border="0" />Real-time earthquakes (M 1+)</a></td></tr></table></font>]]></text>
+		</BalloonStyle>
+	</Style>
+	<StyleMap id="msn_circle-grey1">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_circle-grey0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_circle-grey1</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_circle-grey200">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_circle-grey60</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_circle-grey000</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_circle-grey000">
+		<IconStyle>
+			<color>ff00ff00</color>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://earthquake.usgs.gov/images/ge/circle-grey.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>00ffffff</color>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<font face="Verdana"><table width="400"><tr><td><img src="http://earthquake.usgs.gov/images/ge/banner.jpg" alt="USGS" width="400" height="40" />$[description]</td></tr><tr><td align="right"><img src="http://earthquake.usgs.gov/images/ge/anss.gif" alt="ANSS" width="100" height="31" /></td></tr><tr><td><hr size="1" height="1" /><a href="http://earthquake.usgs.gov/eqcenter/catalogs/eqs7day-age.kmz"><img src="http://earthquake.usgs.gov/images/ge/ge.gif" alt="GE" width="18" height="18" border="0" />Real-time earthquakes (M 1+)</a></td></tr></table></font>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin510">
+		<IconStyle>
+			<scale>2.21667</scale>
+			<Icon>
+				<href>http://www.geology.sdsu.edu/kmlgeology/icons/hotspots.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>00ffffff</color>
+		</LabelStyle>
+	</Style>
+	<Style id="sn_circle-grey1">
+		<IconStyle>
+			<color>ff0000ff</color>
+			<scale>0.6</scale>
+			<Icon>
+				<href>http://earthquake.usgs.gov/images/ge/circle-grey.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<font face="Verdana"><table width="400"><tr><td><img src="http://earthquake.usgs.gov/images/ge/banner.jpg" alt="USGS" width="400" height="40" />$[description]</td></tr><tr><td align="right"><img src="http://earthquake.usgs.gov/images/ge/anss.gif" alt="ANSS" width="100" height="31" /></td></tr><tr><td><hr size="1" height="1" /><a href="http://earthquake.usgs.gov/eqcenter/catalogs/eqs7day-age.kmz"><img src="http://earthquake.usgs.gov/images/ge/ge.gif" alt="GE" width="18" height="18" border="0" />Real-time earthquakes (M 1+)</a></td></tr></table></font>]]></text>
+		</BalloonStyle>
+	</Style>
+	<StyleMap id="msn_circle-grey30">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_circle-grey40</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_circle-grey40</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_circle-grey40">
+		<IconStyle>
+			<color>ff00ff55</color>
+			<scale>0.6</scale>
+			<Icon>
+				<href>http://earthquake.usgs.gov/images/ge/circle-grey.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<font face="Verdana"><table width="400"><tr><td><img src="http://earthquake.usgs.gov/images/ge/banner.jpg" alt="USGS" width="400" height="40" />$[description]</td></tr><tr><td align="right"><img src="http://earthquake.usgs.gov/images/ge/anss.gif" alt="ANSS" width="100" height="31" /></td></tr><tr><td><hr size="1" height="1" /><a href="http://earthquake.usgs.gov/eqcenter/catalogs/eqs7day-age.kmz"><img src="http://earthquake.usgs.gov/images/ge/ge.gif" alt="GE" width="18" height="18" border="0" />Real-time earthquakes (M 1+)</a></td></tr></table></font>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="sh_circle-grey2">
+		<IconStyle>
+			<color>ff0000ff</color>
+			<scale>0.6</scale>
+			<Icon>
+				<href>http://earthquake.usgs.gov/images/ge/circle-grey.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<font face="Verdana"><table width="400"><tr><td><img src="http://earthquake.usgs.gov/images/ge/banner.jpg" alt="USGS" width="400" height="40" />$[description]</td></tr><tr><td align="right"><img src="http://earthquake.usgs.gov/images/ge/anss.gif" alt="ANSS" width="100" height="31" /></td></tr><tr><td><hr size="1" height="1" /><a href="http://earthquake.usgs.gov/eqcenter/catalogs/eqs7day-age.kmz"><img src="http://earthquake.usgs.gov/images/ge/ge.gif" alt="GE" width="18" height="18" border="0" />Real-time earthquakes (M 1+)</a></td></tr></table></font>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="sn_circle-grey50">
+		<IconStyle>
+			<color>ff0000ff</color>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://earthquake.usgs.gov/images/ge/circle-grey.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<font face="Verdana"><table width="400"><tr><td><img src="http://earthquake.usgs.gov/images/ge/banner.jpg" alt="USGS" width="400" height="40" />$[description]</td></tr><tr><td align="right"><img src="http://earthquake.usgs.gov/images/ge/anss.gif" alt="ANSS" width="100" height="31" /></td></tr><tr><td><hr size="1" height="1" /><a href="http://earthquake.usgs.gov/eqcenter/catalogs/eqs7day-age.kmz"><img src="http://earthquake.usgs.gov/images/ge/ge.gif" alt="GE" width="18" height="18" border="0" />Real-time earthquakes (M 1+)</a></td></tr></table></font>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="sh_volcano64_h0">
+		<IconStyle>
+			<scale>1.125</scale>
+			<Icon>
+				<href>http://kh.google.com:80/flatfile?lf-0-icons/volcano64_h.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.77</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<LineStyle>
+			<antialias>0</antialias>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_circle-grey50">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_circle-grey50</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_circle-grey30</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_circle-grey60">
+		<IconStyle>
+			<color>ff00ff00</color>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://earthquake.usgs.gov/images/ge/circle-grey.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<color>00ffffff</color>
+			<scale>0</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<font face="Verdana"><table width="400"><tr><td><img src="http://earthquake.usgs.gov/images/ge/banner.jpg" alt="USGS" width="400" height="40" />$[description]</td></tr><tr><td align="right"><img src="http://earthquake.usgs.gov/images/ge/anss.gif" alt="ANSS" width="100" height="31" /></td></tr><tr><td><hr size="1" height="1" /><a href="http://earthquake.usgs.gov/eqcenter/catalogs/eqs7day-age.kmz"><img src="http://earthquake.usgs.gov/images/ge/ge.gif" alt="GE" width="18" height="18" border="0" />Real-time earthquakes (M 1+)</a></td></tr></table></font>]]></text>
+		</BalloonStyle>
+	</Style>
+	<StyleMap id="IconStyle002">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#IconStyle00200</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#IconStyle0021</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="active-grey01">
+		<IconStyle>
+			<color>ff00ff00</color>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://earthquake.usgs.gov/images/ge/circle-grey.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<font face="Verdana"><table width="400"><tr><td><img src="http://earthquake.usgs.gov/images/ge/banner.jpg" alt="USGS" width="400" height="40" />$[description]</td></tr><tr><td align="right"><img src="http://earthquake.usgs.gov/images/ge/anss.gif" alt="ANSS" width="100" height="31" /></td></tr><tr><td><hr size="1" height="1" /><a href="http://earthquake.usgs.gov/eqcenter/catalogs/eqs7day-age.kmz"><img src="http://earthquake.usgs.gov/images/ge/ge.gif" alt="GE" width="18" height="18" border="0" />Real-time earthquakes (M 1+)</a></td></tr></table></font>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="sn_volcano64_n0">
+		<IconStyle>
+			<Icon>
+				<href>http://kh.google.com:80/flatfile?lf-0-icons/volcano64_n.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0.7</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text>$[description]</text>
+		</BalloonStyle>
+		<LineStyle>
+			<antialias>0</antialias>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style>
+	<Style id="PolyStyle0210">
+		<LabelStyle>
+			<color>00000000</color>
+			<scale>0</scale>
+		</LabelStyle>
+		<PolyStyle>
+			<color>ff00aaff</color>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_circle-grey20">
+		<IconStyle>
+			<color>ff0000ff</color>
+			<scale>0.6</scale>
+			<Icon>
+				<href>http://earthquake.usgs.gov/images/ge/circle-grey.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<font face="Verdana"><table width="400"><tr><td><img src="http://earthquake.usgs.gov/images/ge/banner.jpg" alt="USGS" width="400" height="40" />$[description]</td></tr><tr><td align="right"><img src="http://earthquake.usgs.gov/images/ge/anss.gif" alt="ANSS" width="100" height="31" /></td></tr><tr><td><hr size="1" height="1" /><a href="http://earthquake.usgs.gov/eqcenter/catalogs/eqs7day-age.kmz"><img src="http://earthquake.usgs.gov/images/ge/ge.gif" alt="GE" width="18" height="18" border="0" />Real-time earthquakes (M 1+)</a></td></tr></table></font>]]></text>
+		</BalloonStyle>
+	</Style>
+	<StyleMap id="msn_circle-grey">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_circle-grey1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_circle-grey2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin30000">
+		<LineStyle>
+			<color>ff0000ff</color>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin10000">
+		<LineStyle>
+			<color>ff00ffff</color>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_circle-grey60">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_circle-grey30</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_circle-grey70</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="IconStyle00200">
+		<IconStyle>
+			<scale>0.8</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/sunny.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>ff7fffff</color>
+			<scale>0.8</scale>
+		</LabelStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_circle-grey13">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_circle-grey70</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_circle-grey80</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin2010">
+		<LineStyle>
+			<color>ff00ffff</color>
+		</LineStyle>
+	</Style>
+	<StyleMap id="grey3">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inactive-grey1</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#active-grey4</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="active-grey4">
+		<IconStyle>
+			<color>ff00aaff</color>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://earthquake.usgs.gov/images/ge/circle-grey.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>00ffffff</color>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<font face="Verdana"><table width="400"><tr><td><img src="http://earthquake.usgs.gov/images/ge/banner.jpg" alt="USGS" width="400" height="40" />$[description]</td></tr><tr><td align="right"><img src="http://earthquake.usgs.gov/images/ge/anss.gif" alt="ANSS" width="100" height="31" /></td></tr><tr><td><hr size="1" height="1" /><a href="http://earthquake.usgs.gov/eqcenter/catalogs/eqs7day-age.kmz"><img src="http://earthquake.usgs.gov/images/ge/ge.gif" alt="GE" width="18" height="18" border="0" />Real-time earthquakes (M 1+)</a></td></tr></table></font>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin03">
+		<IconStyle>
+			<scale>1.9</scale>
+			<Icon>
+				<href>http://www.geology.sdsu.edu/kmlgeology/icons/hotspots.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0.5" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<LabelStyle>
+			<color>00ffffff</color>
+		</LabelStyle>
+	</Style>
+	<StyleMap id="149071121110112112112112211124323131100110">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#KC121110231113212311214211210</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#KJ1401142131122113112111000</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_circle-grey1">
+		<IconStyle>
+			<color>ff00ff55</color>
+			<scale>0.8</scale>
+			<Icon>
+				<href>http://earthquake.usgs.gov/images/ge/circle-grey.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<font face="Verdana"><table width="400"><tr><td><img src="http://earthquake.usgs.gov/images/ge/banner.jpg" alt="USGS" width="400" height="40" />$[description]</td></tr><tr><td align="right"><img src="http://earthquake.usgs.gov/images/ge/anss.gif" alt="ANSS" width="100" height="31" /></td></tr><tr><td><hr size="1" height="1" /><a href="http://earthquake.usgs.gov/eqcenter/catalogs/eqs7day-age.kmz"><img src="http://earthquake.usgs.gov/images/ge/ge.gif" alt="GE" width="18" height="18" border="0" />Real-time earthquakes (M 1+)</a></td></tr></table></font>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="sn_circle-grey70">
+		<IconStyle>
+			<color>ff00ff55</color>
+			<scale>0.6</scale>
+			<Icon>
+				<href>http://earthquake.usgs.gov/images/ge/circle-grey.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<font face="Verdana"><table width="400"><tr><td><img src="http://earthquake.usgs.gov/images/ge/banner.jpg" alt="USGS" width="400" height="40" />$[description]</td></tr><tr><td align="right"><img src="http://earthquake.usgs.gov/images/ge/anss.gif" alt="ANSS" width="100" height="31" /></td></tr><tr><td><hr size="1" height="1" /><a href="http://earthquake.usgs.gov/eqcenter/catalogs/eqs7day-age.kmz"><img src="http://earthquake.usgs.gov/images/ge/ge.gif" alt="GE" width="18" height="18" border="0" />Real-time earthquakes (M 1+)</a></td></tr></table></font>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="sn_circle-grey2">
+		<IconStyle>
+			<color>ff00ff55</color>
+			<scale>0.6</scale>
+			<Icon>
+				<href>http://earthquake.usgs.gov/images/ge/circle-grey.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<font face="Verdana"><table width="400"><tr><td><img src="http://earthquake.usgs.gov/images/ge/banner.jpg" alt="USGS" width="400" height="40" />$[description]</td></tr><tr><td align="right"><img src="http://earthquake.usgs.gov/images/ge/anss.gif" alt="ANSS" width="100" height="31" /></td></tr><tr><td><hr size="1" height="1" /><a href="http://earthquake.usgs.gov/eqcenter/catalogs/eqs7day-age.kmz"><img src="http://earthquake.usgs.gov/images/ge/ge.gif" alt="GE" width="18" height="18" border="0" />Real-time earthquakes (M 1+)</a></td></tr></table></font>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="PolyStyle091">
+		<LabelStyle>
+			<color>00000000</color>
+			<scale>0</scale>
+		</LabelStyle>
+		<PolyStyle>
+			<color>ff0055ff</color>
+			<outline>0</outline>
+		</PolyStyle>
+	</Style>
+	<Style id="sn_circle-grey40">
+		<IconStyle>
+			<color>ff00ff55</color>
+			<scale>0.6</scale>
+			<Icon>
+				<href>http://earthquake.usgs.gov/images/ge/circle-grey.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<font face="Verdana"><table width="400"><tr><td><img src="http://earthquake.usgs.gov/images/ge/banner.jpg" alt="USGS" width="400" height="40" />$[description]</td></tr><tr><td align="right"><img src="http://earthquake.usgs.gov/images/ge/anss.gif" alt="ANSS" width="100" height="31" /></td></tr><tr><td><hr size="1" height="1" /><a href="http://earthquake.usgs.gov/eqcenter/catalogs/eqs7day-age.kmz"><img src="http://earthquake.usgs.gov/images/ge/ge.gif" alt="GE" width="18" height="18" border="0" />Real-time earthquakes (M 1+)</a></td></tr></table></font>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="inactive-grey0200">
+		<IconStyle>
+			<color>ff0000ff</color>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://earthquake.usgs.gov/images/ge/circle-grey.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<font face="Verdana"><table width="400"><tr><td><img src="http://earthquake.usgs.gov/images/ge/banner.jpg" alt="USGS" width="400" height="40" />$[description]</td></tr><tr><td align="right"><img src="http://earthquake.usgs.gov/images/ge/anss.gif" alt="ANSS" width="100" height="31" /></td></tr><tr><td><hr size="1" height="1" /><a href="http://earthquake.usgs.gov/eqcenter/catalogs/eqs7day-age.kmz"><img src="http://earthquake.usgs.gov/images/ge/ge.gif" alt="GE" width="18" height="18" border="0" />Real-time earthquakes (M 1+)</a></td></tr></table></font>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="sh_circle-grey80">
+		<IconStyle>
+			<color>ff00ff55</color>
+			<scale>0.6</scale>
+			<Icon>
+				<href>http://earthquake.usgs.gov/images/ge/circle-grey.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<font face="Verdana"><table width="400"><tr><td><img src="http://earthquake.usgs.gov/images/ge/banner.jpg" alt="USGS" width="400" height="40" />$[description]</td></tr><tr><td align="right"><img src="http://earthquake.usgs.gov/images/ge/anss.gif" alt="ANSS" width="100" height="31" /></td></tr><tr><td><hr size="1" height="1" /><a href="http://earthquake.usgs.gov/eqcenter/catalogs/eqs7day-age.kmz"><img src="http://earthquake.usgs.gov/images/ge/ge.gif" alt="GE" width="18" height="18" border="0" />Real-time earthquakes (M 1+)</a></td></tr></table></font>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin3001">
+		<LineStyle>
+			<color>ff00ff00</color>
+		</LineStyle>
+	</Style>
+	<Style id="sn_circle-grey30">
+		<IconStyle>
+			<color>ff0000ff</color>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://earthquake.usgs.gov/images/ge/circle-grey.png</href>
+			</Icon>
+		</IconStyle>
+		<LabelStyle>
+			<scale>0</scale>
+		</LabelStyle>
+		<BalloonStyle>
+			<text><![CDATA[<font face="Verdana"><table width="400"><tr><td><img src="http://earthquake.usgs.gov/images/ge/banner.jpg" alt="USGS" width="400" height="40" />$[description]</td></tr><tr><td align="right"><img src="http://earthquake.usgs.gov/images/ge/anss.gif" alt="ANSS" width="100" height="31" /></td></tr><tr><td><hr size="1" height="1" /><a href="http://earthquake.usgs.gov/eqcenter/catalogs/eqs7day-age.kmz"><img src="http://earthquake.usgs.gov/images/ge/ge.gif" alt="GE" width="18" height="18" border="0" />Real-time earthquakes (M 1+)</a></td></tr></table></font>]]></text>
+		</BalloonStyle>
+	</Style>
+	<StyleMap id="msn_circle-grey40">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_circle-grey20</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_circle-grey11</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_ylw-pushpin400">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin03</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin510</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="IconStyle0022">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#IconStyle0020</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#IconStyle00210</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_circle-grey70">
+		<IconStyle>
+			<color>ff0000ff</color>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://earthquake.usgs.gov/images/ge/circle-grey.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<font face="Verdana"><table width="400"><tr><td><img src="http://earthquake.usgs.gov/images/ge/banner.jpg" alt="USGS" width="400" height="40" />$[description]</td></tr><tr><td align="right"><img src="http://earthquake.usgs.gov/images/ge/anss.gif" alt="ANSS" width="100" height="31" /></td></tr><tr><td><hr size="1" height="1" /><a href="http://earthquake.usgs.gov/eqcenter/catalogs/eqs7day-age.kmz"><img src="http://earthquake.usgs.gov/images/ge/ge.gif" alt="GE" width="18" height="18" border="0" />Real-time earthquakes (M 1+)</a></td></tr></table></font>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Style id="active-grey5">
+		<IconStyle>
+			<color>ff0000ff</color>
+			<scale>0.5</scale>
+			<Icon>
+				<href>http://earthquake.usgs.gov/images/ge/circle-grey.png</href>
+			</Icon>
+		</IconStyle>
+		<BalloonStyle>
+			<text><![CDATA[<font face="Verdana"><table width="400"><tr><td><img src="http://earthquake.usgs.gov/images/ge/banner.jpg" alt="USGS" width="400" height="40" />$[description]</td></tr><tr><td align="right"><img src="http://earthquake.usgs.gov/images/ge/anss.gif" alt="ANSS" width="100" height="31" /></td></tr><tr><td><hr size="1" height="1" /><a href="http://earthquake.usgs.gov/eqcenter/catalogs/eqs7day-age.kmz"><img src="http://earthquake.usgs.gov/images/ge/ge.gif" alt="GE" width="18" height="18" border="0" />Real-time earthquakes (M 1+)</a></td></tr></table></font>]]></text>
+		</BalloonStyle>
+	</Style>
+	<Folder>
+		<name>Dans le monde</name>
+		<visibility>0</visibility>
+		<open>1</open>
+		<description><![CDATA[Dossier réalisé  pour Eduterre-usages - IFE<br> par Marie-José Broussaud .<br>
+
+<img src="http://eduterre.ens-lyon.fr/eduterre-usages/terre/geothermie/logo-ife.png/"/>
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" /></a><br />Cette cr&#233;ation est mise &#224; disposition sous un <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">contrat Creative Commons</a>.]]></description>
+		<Placemark>
+			<name>&lt;font color=&quot;#FF0000&quot;&gt;Fiche d&apos;aide&lt;/font&gt;</name>
+			<visibility>0</visibility>
+			<description><![CDATA[<font color="#FF0000">Informations techniques à respecter :</font><br><br>
+
+1) Pour ouvrir un dossier, selon votre version de Google Earth cliquer sur le<font color="#FF0000"> +</font>, ou sur le triangle blanc  qui est  placé devant le nom.<br><br>
+
+
+
+2)-  <font color="#FF0000">Un clic</font> sur le nom du dossier permet d'afficher un texte<br>
+   -   <font color="#FF0000">Deux clics</font> permettent de se rendre au lieu indiqué<br><br>
+
+3) Pour agir sur la transparence, cliquer sur le nom de la couche qui est affichée sur le globe et utiliser l'onglet situé au dessus de "Données géographiques" ou "Calques" selon les version de Google Earth.<br><br>
+<p align="center"><img src="http://eduterre.ens-lyon.fr/eduterre-usages/sol/sol_et_eau/transparence.JPG"/></p align="center">.<br>
+4)  Pour afficher les volcans, il faut se rapprocher de la Terre.<br><br>
+5)  Au fur et à mesure, décocher les données non utilisées <br><br>
+
+6)  Après chaque vision 3D ou si vous avez "perdu la Terre", se remettre à plat en utilisant le contrôle de navigation.utiliser le<font color="#000FF">V</font>  sous l'oeil.<br><br>
+<p align="center"><img src="http://eduterre.ens-lyon.fr/eduterre-usages/formations/telecharger-decouvrir-utiliser-google-earth/joystick.jpg"/><p align="center"></p align="center"><br><br>
+
+<strong>Attention!</strong><br>
+-  ne jamais perdre le Nord <br>
+-  pour voir le relief, 2 possibilités :<br>
+a)  Enfoncer la touche "shift" et avec la molette de la souris changer l'angle de vision <br>
+b) Utiliser les contrôles de navigation.<br><br>
+<a href="http://eduterre.inrp.fr/eduterre-usages/formations/telecharger-decouvrir-utiliser-google-earth/telecharger-decouvrir-utiliser-google-earth">Tutoriel Google Earth :</a><br<
+
+-  En bas de certaines pages, ne pas tenir compte de : <br>
+Itinéraire : 
+<font color="#000080">Vers ce lieu - À partir de ce lieu </font><br><br>]]></description>
+			<LookAt>
+				<longitude>21.18544129714267</longitude>
+				<latitude>10.09136679010746</latitude>
+				<altitude>0</altitude>
+				<heading>2.780924089415116</heading>
+				<tilt>0</tilt>
+				<range>14859212.40860438</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#msn_info0</styleUrl>
+			<Point>
+				<coordinates>4.976610645133324,45.25156146878364,0</coordinates>
+			</Point>
+		</Placemark>
+		<Folder id="FeatureLayer0">
+			<name>Electricité géothermique produite en 2010</name>
+			<visibility>0</visibility>
+			<Snippet maxLines="0"></Snippet>
+			<description><![CDATA[La géothermie à haute température permet de produire de l'électricité.
+<a href="http://www.edf.com/html/panorama/transversal/media_geo/geo_anim_01.html">Petite animation sur le fonctionnement d'une centrale géothermique</a><br><br>
+Réalisé à partir des données de<a href="http://www.eia.gov/"> l'EIA</a> US Energy Information Administration
+ par MJ Broussaud
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" /></a><br />Cette cr&#233;ation est mise &#224; disposition sous un <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">contrat Creative Commons</a>.]]></description>
+    <Placemark>
+				<name>GAP-P1  110-148[km]</name>
+				<Style>
+					<PolyStyle>
+						<color>fffffbee</color>
+						<fill>1</fill>
+						<outline>0</outline>
+					</PolyStyle>
+				</Style>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-125,-48,2871000 -125,-48.99999999999999,2871000 -124,-48.99999999999999,2871000 -124,-48,2871000 -125,-48,2871000 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>GAP-P1  110-148[km]</name>
+				<Style>
+					<PolyStyle>
+						<color>fffffcf0</color>
+						<fill>1</fill>
+						<outline>0</outline>
+					</PolyStyle>
+				</Style>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-124,-48,2871000 -124,-48.99999999999999,2871000 -123,-48.99999999999999,2871000 -123,-48,2871000 -124,-48,2871000 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>GAP-P1  110-148[km]</name>
+				<Style>
+					<PolyStyle>
+						<color>fffffcf1</color>
+						<fill>1</fill>
+						<outline>0</outline>
+					</PolyStyle>
+				</Style>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-123,-48,2871000 -123,-48.99999999999999,2871000 -122,-48.99999999999999,2871000 -122,-48,2871000 -123,-48,2871000 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>GAP-P1  110-148[km]</name>
+				<Style>
+					<PolyStyle>
+						<color>fffffcf2</color>
+						<fill>1</fill>
+						<outline>0</outline>
+					</PolyStyle>
+				</Style>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-122,-48,2871000 -122,-48.99999999999999,2871000 -121,-48.99999999999999,2871000 -121,-48,2871000 -122,-48,2871000 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>GAP-P1  110-148[km]</name>
+				<Style>
+					<PolyStyle>
+						<color>fffffdf2</color>
+						<fill>1</fill>
+						<outline>0</outline>
+					</PolyStyle>
+				</Style>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-121,-48,2871000 -121,-48.99999999999999,2871000 -120,-48.99999999999999,2871000 -120,-48,2871000 -121,-48,2871000 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>GAP-P1  110-148[km]</name>
+				<Style>
+					<PolyStyle>
+						<color>fffffdf3</color>
+						<fill>1</fill>
+						<outline>0</outline>
+					</PolyStyle>
+				</Style>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-120,-48,2871000 -120,-48.99999999999999,2871000 -119,-48.99999999999999,2871000 -119,-48,2871000 -120,-48,2871000 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>GAP-P1  110-148[km]</name>
+				<Style>
+					<PolyStyle>
+						<color>fffffdf3</color>
+						<fill>1</fill>
+						<outline>0</outline>
+					</PolyStyle>
+				</Style>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-119,-48,2871000 -119,-48.99999999999999,2871000 -118,-48.99999999999999,2871000 -118,-48,2871000 -119,-48,2871000 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>GAP-P1  110-148[km]</name>
+				<Style>
+					<PolyStyle>
+						<color>fffffdf4</color>
+						<fill>1</fill>
+						<outline>0</outline>
+					</PolyStyle>
+				</Style>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-118,-48,2871000 -118,-48.99999999999999,2871000 -117,-48.99999999999999,2871000 -117,-48,2871000 -118,-48,2871000 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>GAP-P1  110-148[km]</name>
+				<Style>
+					<PolyStyle>
+						<color>fffffdf4</color>
+						<fill>1</fill>
+						<outline>0</outline>
+					</PolyStyle>
+				</Style>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-117,-48,2871000 -117,-48.99999999999999,2871000 -116,-48.99999999999999,2871000 -116,-48,2871000 -117,-48,2871000 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>GAP-P1  110-148[km]</name>
+				<Style>
+					<PolyStyle>
+						<color>fffffdf4</color>
+						<fill>1</fill>
+						<outline>0</outline>
+					</PolyStyle>
+				</Style>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-116,-48,2871000 -116,-48.99999999999999,2871000 -115,-48.99999999999999,2871000 -115,-48,2871000 -116,-48,2871000 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>GAP-P1  110-148[km]</name>
+				<Style>
+					<PolyStyle>
+						<color>fffffdf5</color>
+						<fill>1</fill>
+						<outline>0</outline>
+					</PolyStyle>
+				</Style>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-115,-48,2871000 -115,-48.99999999999999,2871000 -114,-48.99999999999999,2871000 -114,-48,2871000 -115,-48,2871000 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>GAP-P1  110-148[km]</name>
+				<Style>
+					<PolyStyle>
+						<color>fffffdf5</color>
+						<fill>1</fill>
+						<outline>0</outline>
+					</PolyStyle>
+				</Style>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-114,-48,2871000 -114,-48.99999999999999,2871000 -113,-48.99999999999999,2871000 -113,-48,2871000 -114,-48,2871000 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>GAP-P1  110-148[km]</name>
+				<Style>
+					<PolyStyle>
+						<color>fffffdf6</color>
+						<fill>1</fill>
+						<outline>0</outline>
+					</PolyStyle>
+				</Style>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-113,-48,2871000 -113,-48.99999999999999,2871000 -112,-48.99999999999999,2871000 -112,-48,2871000 -113,-48,2871000 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>GAP-P1  110-148[km]</name>
+				<Style>
+					<PolyStyle>
+						<color>fffffef6</color>
+						<fill>1</fill>
+						<outline>0</outline>
+					</PolyStyle>
+				</Style>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-112,-48,2871000 -112,-48.99999999999999,2871000 -111,-48.99999999999999,2871000 -111,-48,2871000 -112,-48,2871000 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>GAP-P1  110-148[km]</name>
+				<Style>
+					<PolyStyle>
+						<color>fffffef6</color>
+						<fill>1</fill>
+						<outline>0</outline>
+					</PolyStyle>
+				</Style>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-111,-48,2871000 -111,-48.99999999999999,2871000 -110,-48.99999999999999,2871000 -110,-48,2871000 -111,-48,2871000 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>GAP-P1  110-148[km]</name>
+				<Style>
+					<PolyStyle>
+						<color>fffffef7</color>
+						<fill>1</fill>
+						<outline>0</outline>
+					</PolyStyle>
+				</Style>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-110,-48,2871000 -110,-48.99999999999999,2871000 -109,-48.99999999999999,2871000 -109,-48,2871000 -110,-48,2871000 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>GAP-P1  110-148[km]</name>
+				<Style>
+					<PolyStyle>
+						<color>fffffef7</color>
+						<fill>1</fill>
+						<outline>0</outline>
+					</PolyStyle>
+				</Style>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-109,-48,2871000 -109,-48.99999999999999,2871000 -108,-48.99999999999999,2871000 -108,-48,2871000 -109,-48,2871000 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>GAP-P1  110-148[km]</name>
+				<Style>
+					<PolyStyle>
+						<color>fffffef7</color>
+						<fill>1</fill>
+						<outline>0</outline>
+					</PolyStyle>
+				</Style>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-108,-48,2871000 -108,-48.99999999999999,2871000 -107,-48.99999999999999,2871000 -107,-48,2871000 -108,-48,2871000 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>GAP-P1  110-148[km]</name>
+				<Style>
+					<PolyStyle>
+						<color>fffffef8</color>
+						<fill>1</fill>
+						<outline>0</outline>
+					</PolyStyle>
+				</Style>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-107,-48,2871000 -107,-48.99999999999999,2871000 -106,-48.99999999999999,2871000 -106,-48,2871000 -107,-48,2871000 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>GAP-P1  110-148[km]</name>
+				<Style>
+					<PolyStyle>
+						<color>fffffef8</color>
+						<fill>1</fill>
+						<outline>0</outline>
+					</PolyStyle>
+				</Style>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-106,-48,2871000 -106,-48.99999999999999,2871000 -105,-48.99999999999999,2871000 -105,-48,2871000 -106,-48,2871000 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>GAP-P1  110-148[km]</name>
+				<Style>
+					<PolyStyle>
+						<color>fffffef8</color>
+						<fill>1</fill>
+						<outline>0</outline>
+					</PolyStyle>
+				</Style>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-105,-48,2871000 -105,-48.99999999999999,2871000 -104,-48.99999999999999,2871000 -104,-48,2871000 -105,-48,2871000 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>GAP-P1  110-148[km]</name>
+				<Style>
+					<PolyStyle>
+						<color>fffffef9</color>
+						<fill>1</fill>
+						<outline>0</outline>
+					</PolyStyle>
+				</Style>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-104,-48,2871000 -104,-48.99999999999999,2871000 -103,-48.99999999999999,2871000 -103,-48,2871000 -104,-48,2871000 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>GAP-P1  110-148[km]</name>
+				<Style>
+					<PolyStyle>
+						<color>fffffef9</color>
+						<fill>1</fill>
+						<outline>0</outline>
+					</PolyStyle>
+				</Style>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-103,-48,2871000 -103,-48.99999999999999,2871000 -102,-48.99999999999999,2871000 -102,-48,2871000 -103,-48,2871000 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>GAP-P1  110-148[km]</name>
+				<Style>
+					<PolyStyle>
+						<color>fffffefa</color>
+						<fill>1</fill>
+						<outline>0</outline>
+					</PolyStyle>
+				</Style>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-102,-48,2871000 -102,-48.99999999999999,2871000 -101,-48.99999999999999,2871000 -101,-48,2871000 -102,-48,2871000 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>GAP-P1  110-148[km]</name>
+				<Style>
+					<PolyStyle>
+						<color>fffffefc</color>
+						<fill>1</fill>
+						<outline>0</outline>
+					</PolyStyle>
+				</Style>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-101,-48,2871000 -101,-48.99999999999999,2871000 -100,-48.99999999999999,2871000 -100,-48,2871000 -101,-48,2871000 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>GAP-P1  110-148[km]</name>
+				<Style>
+					<PolyStyle>
+						<color>fffffefc</color>
+						<fill>1</fill>
+						<outline>0</outline>
+					</PolyStyle>
+				</Style>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-100,-48,2871000 -100,-48.99999999999999,2871000 -99.00000000000001,-48.99999999999999,2871000 -99.00000000000001,-48,2871000 -100,-48,2871000 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>GAP-P1  110-148[km]</name>
+				<Style>
+					<PolyStyle>
+						<color>fffffefd</color>
+						<fill>1</fill>
+						<outline>0</outline>
+					</PolyStyle>
+				</Style>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-99.00000000000001,-48,2871000 -99.00000000000001,-48.99999999999999,2871000 -97.99999999999999,-48.99999999999999,2871000 -97.99999999999999,-48,2871000 -99.00000000000001,-48,2871000 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>GAP-P1  110-148[km]</name>
+				<Style>
+					<PolyStyle>
+						<color>fffffefd</color>
+						<fill>1</fill>
+						<outline>0</outline>
+					</PolyStyle>
+				</Style>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-97.99999999999999,-48,2871000 -97.99999999999999,-48.99999999999999,2871000 -97,-48.99999999999999,2871000 -97,-48,2871000 -97.99999999999999,-48,2871000 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>GAP-P1  110-148[km]</name>
+				<Style>
+					<PolyStyle>
+						<color>fffffefe</color>
+						<fill>1</fill>
+						<outline>0</outline>
+					</PolyStyle>
+				</Style>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-97,-48,2871000 -97,-48.99999999999999,2871000 -96,-48.99999999999999,2871000 -96,-48,2871000 -97,-48,2871000 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>GAP-P1  110-148[km]</name>
+				<Style>
+					<PolyStyle>
+						<color>fffefeff</color>
+						<fill>1</fill>
+						<outline>0</outline>
+					</PolyStyle>
+				</Style>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-96,-48,2871000 -96,-48.99999999999999,2871000 -95,-48.99999999999999,2871000 -95,-48,2871000 -96,-48,2871000 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>GAP-P1  110-148[km]</name>
+				<Style>
+					<PolyStyle>
+						<color>fffdfeff</color>
+						<fill>1</fill>
+						<outline>0</outline>
+					</PolyStyle>
+				</Style>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-95,-48,2871000 -95,-48.99999999999999,2871000 -94,-48.99999999999999,2871000 -94,-48,2871000 -95,-48,2871000 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>GAP-P1  110-148[km]</name>
+				<Style>
+					<PolyStyle>
+						<color>fffdfeff</color>
+						<fill>1</fill>
+						<outline>0</outline>
+					</PolyStyle>
+				</Style>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-94,-48,2871000 -94,-48.99999999999999,2871000 -93.00000000000001,-48.99999999999999,2871000 -93.00000000000001,-48,2871000 -94,-48,2871000 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>GAP-P1  110-148[km]</name>
+				<Style>
+					<PolyStyle>
+						<color>fffbfeff</color>
+						<fill>1</fill>
+						<outline>0</outline>
+					</PolyStyle>
+				</Style>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-93.00000000000001,-48,2871000 -93.00000000000001,-48.99999999999999,2871000 -92,-48.99999999999999,2871000 -92,-48,2871000 -93.00000000000001,-48,2871000 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>GAP-P1  110-148[km]</name>
+				<Style>
+					<PolyStyle>
+						<color>fffafeff</color>
+						<fill>1</fill>
+						<outline>0</outline>
+					</PolyStyle>
+				</Style>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-92,-48,2871000 -92,-48.99999999999999,2871000 -91,-48.99999999999999,2871000 -91,-48,2871000 -92,-48,2871000 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>GAP-P1  110-148[km]</name>
+				<Style>
+					<PolyStyle>
+						<color>fff9feff</color>
+						<fill>1</fill>
+						<outline>0</outline>
+					</PolyStyle>
+				</Style>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-91,-48,2871000 -91,-48.99999999999999,2871000 -90,-48.99999999999999,2871000 -90,-48,2871000 -91,-48,2871000 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>GAP-P1  110-148[km]</name>
+				<Style>
+					<PolyStyle>
+						<color>fff4fdff</color>
+						<fill>1</fill>
+						<outline>0</outline>
+					</PolyStyle>
+				</Style>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-90,-48,2871000 -90,-48.99999999999999,2871000 -89,-48.99999999999999,2871000 -89,-48,2871000 -90,-48,2871000 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>GAP-P1  110-148[km]</name>
+				<Style>
+					<PolyStyle>
+						<color>fff2fcff</color>
+						<fill>1</fill>
+						<outline>0</outline>
+					</PolyStyle>
+				</Style>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-89,-48,2871000 -89,-48.99999999999999,2871000 -88,-48.99999999999999,2871000 -88,-48,2871000 -89,-48,2871000 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>GAP-P1  110-148[km]</name>
+				<Style>
+					<PolyStyle>
+						<color>fff0fcff</color>
+						<fill>1</fill>
+						<outline>0</outline>
+					</PolyStyle>
+				</Style>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-88,-48,2871000 -88,-48.99999999999999,2871000 -87,-48.99999999999999,2871000 -87,-48,2871000 -88,-48,2871000 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>GAP-P1  110-148[km]</name>
+				<Style>
+					<PolyStyle>
+						<color>ffeffbff</color>
+						<fill>1</fill>
+						<outline>0</outline>
+					</PolyStyle>
+				</Style>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-87,-48,2871000 -87,-48.99999999999999,2871000 -86,-48.99999999999999,2871000 -86,-48,2871000 -87,-48,2871000 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>GAP-P1  110-148[km]</name>
+				<Style>
+					<PolyStyle>
+						<color>ffeefbff</color>
+						<fill>1</fill>
+						<outline>0</outline>
+					</PolyStyle>
+				</Style>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-86,-48,2871000 -86,-48.99999999999999,2871000 -85,-48.99999999999999,2871000 -85,-48,2871000 -86,-48,2871000 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>GAP-P1  110-148[km]</name>
+				<Style>
+					<PolyStyle>
+						<color>ffecfaff</color>
+						<fill>1</fill>
+						<outline>0</outline>
+					</PolyStyle>
+				</Style>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-85,-48,2871000 -85,-48.99999999999999,2871000 -84,-48.99999999999999,2871000 -84,-48,2871000 -85,-48,2871000 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>GAP-P1  110-148[km]</name>
+				<Style>
+					<PolyStyle>
+						<color>ffeaf9ff</color>
+						<fill>1</fill>
+						<outline>0</outline>
+					</PolyStyle>
+				</Style>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-84,-48,2871000 -84,-48.99999999999999,2871000 -83,-48.99999999999999,2871000 -83,-48,2871000 -84,-48,2871000 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>GAP-P1  110-148[km]</name>
+				<Style>
+					<PolyStyle>
+						<color>ffe9f9ff</color>
+						<fill>1</fill>
+						<outline>0</outline>
+					</PolyStyle>
+				</Style>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-83,-48,2871000 -83,-48.99999999999999,2871000 -82,-48.99999999999999,2871000 -82,-48,2871000 -83,-48,2871000 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>GAP-P1  110-148[km]</name>
+				<Style>
+					<PolyStyle>
+						<color>ffe8f9ff</color>
+						<fill>1</fill>
+						<outline>0</outline>
+					</PolyStyle>
+				</Style>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-82,-48,2871000 -82,-48.99999999999999,2871000 -81,-48.99999999999999,2871000 -81,-48,2871000 -82,-48,2871000 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>GAP-P1  110-148[km]</name>
+				<Style>
+					<PolyStyle>
+						<color>ffe7f8ff</color>
+						<fill>1</fill>
+						<outline>0</outline>
+					</PolyStyle>
+				</Style>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-81,-48,2871000 -81,-48.99999999999999,2871000 -80,-48.99999999999999,2871000 -80,-48,2871000 -81,-48,2871000 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>GAP-P1  110-148[km]</name>
+				<Style>
+					<PolyStyle>
+						<color>ffe5f7ff</color>
+						<fill>1</fill>
+						<outline>0</outline>
+					</PolyStyle>
+				</Style>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-80,-48,2871000 -80,-48.99999999999999,2871000 -79,-48.99999999999999,2871000 -79,-48,2871000 -80,-48,2871000 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>GAP-P1  110-148[km]</name>
+				<Style>
+					<PolyStyle>
+						<color>ffe0f4ff</color>
+						<fill>1</fill>
+						<outline>0</outline>
+					</PolyStyle>
+				</Style>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-79,-48,2871000 -79,-48.99999999999999,2871000 -78,-48.99999999999999,2871000 -78,-48,2871000 -79,-48,2871000 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>GAP-P1  110-148[km]</name>
+				<Style>
+					<PolyStyle>
+						<color>ffddf3ff</color>
+						<fill>1</fill>
+						<outline>0</outline>
+					</PolyStyle>
+				</Style>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-78,-48,2871000 -78,-48.99999999999999,2871000 -77,-48.99999999999999,2871000 -77,-48,2871000 -78,-48,2871000 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>GAP-P1  110-148[km]</name>
+				<Style>
+					<PolyStyle>
+						<color>ffdcf2ff</color>
+						<fill>1</fill>
+						<outline>0</outline>
+					</PolyStyle>
+				</Style>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-77,-48,2871000 -77,-48.99999999999999,2871000 -76,-48.99999999999999,2871000 -76,-48,2871000 -77,-48,2871000 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>GAP-P1  110-148[km]</name>
+				<Style>
+					<PolyStyle>
+						<color>ffdbf1ff</color>
+						<fill>1</fill>
+						<outline>0</outline>
+					</PolyStyle>
+				</Style>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-76,-48,2871000 -76,-48.99999999999999,2871000 -75,-48.99999999999999,2871000 -75,-48,2871000 -76,-48,2871000 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>GAP-P1  110-148[km]</name>
+				<Style>
+					<PolyStyle>
+						<color>ffdbf1ff</color>
+						<fill>1</fill>
+						<outline>0</outline>
+					</PolyStyle>
+				</Style>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-75,-48,2871000 -75,-48.99999999999999,2871000 -74,-48.99999999999999,2871000 -74,-48,2871000 -75,-48,2871000 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>GAP-P1  110-148[km]</name>
+				<Style>
+					<PolyStyle>
+						<color>ffdbf2ff</color>
+						<fill>1</fill>
+						<outline>0</outline>
+					</PolyStyle>
+				</Style>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-74,-48,2871000 -74,-48.99999999999999,2871000 -73,-48.99999999999999,2871000 -73,-48,2871000 -74,-48,2871000 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>GAP-P1  110-148[km]</name>
+				<Style>
+					<PolyStyle>
+						<color>ffdcf2ff</color>
+						<fill>1</fill>
+						<outline>0</outline>
+					</PolyStyle>
+				</Style>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-73,-48,2871000 -73,-48.99999999999999,2871000 -72,-48.99999999999999,2871000 -72,-48,2871000 -73,-48,2871000 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>GAP-P1  110-148[km]</name>
+				<Style>
+					<PolyStyle>
+						<color>ffddf2ff</color>
+						<fill>1</fill>
+						<outline>0</outline>
+					</PolyStyle>
+				</Style>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-72,-48,2871000 -72,-48.99999999999999,2871000 -71,-48.99999999999999,2871000 -71,-48,2871000 -72,-48,2871000 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>GAP-P1  110-148[km]</name>
+				<Style>
+					<PolyStyle>
+						<color>ffddf3ff</color>
+						<fill>1</fill>
+						<outline>0</outline>
+					</PolyStyle>
+				</Style>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-71,-48,2871000 -71,-48.99999999999999,2871000 -70,-48.99999999999999,2871000 -70,-48,2871000 -71,-48,2871000 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>GAP-P1  110-148[km]</name>
+				<Style>
+					<PolyStyle>
+						<color>ffdff4ff</color>
+						<fill>1</fill>
+						<outline>0</outline>
+					</PolyStyle>
+				</Style>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-70,-48,2871000 -70,-48.99999999999999,2871000 -69,-48.99999999999999,2871000 -69,-48,2871000 -70,-48,2871000 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>GAP-P1  110-148[km]</name>
+				<Style>
+					<PolyStyle>
+						<color>ffdff4ff</color>
+						<fill>1</fill>
+						<outline>0</outline>
+					</PolyStyle>
+				</Style>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-69,-48,2871000 -69,-48.99999999999999,2871000 -68,-48.99999999999999,2871000 -68,-48,2871000 -69,-48,2871000 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>GAP-P1  110-148[km]</name>
+				<Style>
+					<PolyStyle>
+						<color>ffe3f6ff</color>
+						<fill>1</fill>
+						<outline>0</outline>
+					</PolyStyle>
+				</Style>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-68,-48,2871000 -68,-48.99999999999999,2871000 -67,-48.99999999999999,2871000 -67,-48,2871000 -68,-48,2871000 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>GAP-P1  110-148[km]</name>
+				<Style>
+					<PolyStyle>
+						<color>ffe6f7ff</color>
+						<fill>1</fill>
+						<outline>0</outline>
+					</PolyStyle>
+				</Style>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-67,-48,2871000 -67,-48.99999999999999,2871000 -66,-48.99999999999999,2871000 -66,-48,2871000 -67,-48,2871000 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>GAP-P1  110-148[km]</name>
+				<Style>
+					<PolyStyle>
+						<color>ffe7f8ff</color>
+						<fill>1</fill>
+						<outline>0</outline>
+					</PolyStyle>
+				</Style>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-66,-48,2871000 -66,-48.99999999999999,2871000 -65,-48.99999999999999,2871000 -65,-48,2871000 -66,-48,2871000 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>GAP-P1  110-148[km]</name>
+				<Style>
+					<PolyStyle>
+						<color>ffe8f8ff</color>
+						<fill>1</fill>
+						<outline>0</outline>
+					</PolyStyle>
+				</Style>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-65,-48,2871000 -65,-48.99999999999999,2871000 -64,-48.99999999999999,2871000 -64,-48,2871000 -65,-48,2871000 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>GAP-P1  110-148[km]</name>
+				<Style>
+					<PolyStyle>
+						<color>ffe8f9ff</color>
+						<fill>1</fill>
+						<outline>0</outline>
+					</PolyStyle>
+				</Style>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-64,-48,2871000 -64,-48.99999999999999,2871000 -62.99999999999999,-48.99999999999999,2871000 -62.99999999999999,-48,2871000 -64,-48,2871000 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>GAP-P1  110-148[km]</name>
+				<Style>
+					<PolyStyle>
+						<color>ffe9f9ff</color>
+						<fill>1</fill>
+						<outline>0</outline>
+					</PolyStyle>
+				</Style>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-62.99999999999999,-48,2871000 -62.99999999999999,-48.99999999999999,2871000 -62,-48.99999999999999,2871000 -62,-48,2871000 -62.99999999999999,-48,2871000 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
+			<Placemark>
+				<name>GAP-P1  110-148[km]</name>
+				<Style>
+					<PolyStyle>
+						<color>ffeaf9ff</color>
+						<fill>1</fill>
+						<outline>0</outline>
+					</PolyStyle>
+				</Style>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								-62,-48,2871000 -62,-48.99999999999999,2871000 -61,-48.99999999999999,2871000 -61,-48,2871000 -62,-48,2871000 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</Placemark>
