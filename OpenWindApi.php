@@ -10,6 +10,7 @@ require_once("config.php");
  * @copyright 2013
  */
 set_time_limit ( 5000000 );
+//GetAllWind();
 if (isset($_GET["work"])){
     if ($_GET["work"]==1){
         $all =  new stdClass();
@@ -82,7 +83,7 @@ else if (isset($_POST["step"])){
          }
        
           if ($result->status==1){
-    echo ("City : $result->name, Temperature : $result->temperature C,Humidity : $result->humidity%, Wind Speed : $result->wind_speed<br/>");
+    echo ("City : $result->name, Temperature : $result->temperature C,Humidity : $result->humidity%, Wind Speed : $result->wind_speed km/h");
     }
     else
     echo 0;
@@ -90,6 +91,85 @@ else if (isset($_POST["step"])){
 
 
 }
+
+function GetAllWind($start,$end,$lim=""){
+if (!isset($lim))
+$lim = 100;
+
+      $newquery = "SELECT * 
+FROM  `winddata` 
+WHERE lat <$start
+AND lat > $end
+AND avg <90 AND avg>6
+ORDER BY avg DESC
+LIMIT $lim " ;     
+
+
+ $grades =new stdClass();
+$ex = mysql_query($newquery);
+$number = mysql_num_rows($ex);
+$num=0;
+ $grades->number=$number;
+
+      while  ($get = mysql_fetch_assoc($ex)) {
+      $lat=$get["lat"];
+      $long=$get["long"];
+      $average=$get["avg"];
+     echo '
+     
+      markers.addMarker(new OpenLayers.Marker(new OpenLayers.LonLat('.$lat.', '.$long.').transform(new OpenLayers.Projection("EPSG:4326"), new OpenLayers.Projection("EPSG:900913")),icon.clone()));
+     
+     
+     ';
+      
+         }
+         echo ('map.addLayer(markers);');
+         
+        
+
+}
+
+
+function GetAllSolar($start,$end,$lim=""){
+if (!isset($lim))
+$lim = 100;
+
+      $newquery = "SELECT * 
+FROM  `solardata` 
+WHERE lat <$start
+AND lat > $end
+AND avg <90 AND avg>30
+ORDER BY avg DESC
+LIMIT $lim " ;     
+
+
+ $grades =new stdClass();
+$ex = mysql_query($newquery);
+$number = mysql_num_rows($ex);
+$num=0;
+ $grades->number=$number;
+
+      while  ($get = mysql_fetch_assoc($ex)) {
+      $lat=$get["lat"];
+      $long=$get["long"];
+      $average=$get["avg"];
+     echo '
+     
+      solar.addMarker(new OpenLayers.Marker(new OpenLayers.LonLat('.$lat.', '.$long.').transform(new OpenLayers.Projection("EPSG:4326"), new OpenLayers.Projection("EPSG:900913")),iconsolar.clone()));
+     
+     
+     ';
+      
+         }
+         echo ('map.addLayer(solar);');
+         
+        
+
+}
+
+
+
+
 
 function gethighestwind(){
 

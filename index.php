@@ -3,7 +3,7 @@
 <html lang="en">
   <head>
 	<meta charset="utf-8">
-	<title>Open Weather Map actual and forecast weather.</title>
+	<title>World Energy Xplorer.</title>
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	
@@ -228,9 +228,9 @@ else	$("#img_PR").hide();
           <div class="nav-collapse">
             <ul class="nav">
               <li class="active"><a href="thermal.zip">Download Thermal Data</a></li>
-              
-<!--              <li><a href="/api">API</a></li> -->
-
+              <li class="active"><a href="solar.php">Solar Data</a></li>
+              <li class="active"><a href="wind.php">Wind Data</a></li>
+            
               
          <input type="text" id="x" value="Latitude, Longitude Values"  width="150" size="150" />
          <input type="text" id="result" value="Click For Results"  width="150" size="150" />
@@ -240,6 +240,7 @@ else	$("#img_PR").hide();
 
             </ul>
           </div><!--/.nav-collapse -->
+
 
 <!--
 
@@ -395,7 +396,7 @@ var gsat = new OpenLayers.Layer.Google(
     wind.setVisibility(false);
     
     	var temp = new OpenLayers.Layer.XYZ(
-		"Temperature",
+		"World Solar Energy",
 		"http://${s}.tile.openweathermap.org/map/temp/${z}/${x}/${y}.png",
 		{
 			numZoomLevels: 19, 
@@ -422,6 +423,7 @@ var gsat = new OpenLayers.Layer.Google(
 		if(usageo.getVisibility())	$("#img_PR").show();
 		else	$("#img_PR2").hide();
 	}); 
+    	usageo.setVisibility(false);
      var switzelandgeo = new OpenLayers.Layer.Vector("Switzerland Geothermal Data", {
             projection: map.displayProjection,
             strategies: [new OpenLayers.Strategy.Fixed()],
@@ -433,6 +435,7 @@ var gsat = new OpenLayers.Layer.Google(
                 })
             })
         });
+        	switzelandgeo.setVisibility(false);
         
              var worldgeo = new OpenLayers.Layer.Vector("World Geothermal Data", {
             projection: map.displayProjection,
@@ -459,6 +462,7 @@ var gsat = new OpenLayers.Layer.Google(
                 })
             })
         });
+        don.setVisibility(false);
         worldgeo.events.register('visibilitychanged', precipitation, function (e) {    
 		if(worldgeo.getVisibility())	$("#img_PR").show();
 		else	$("#img_PR").hide();
@@ -515,16 +519,44 @@ var gsat = new OpenLayers.Layer.Google(
     	map.addLayer(wind);
     
     
-	//map.addLayer(radar);
-     var toProjection = new OpenLayers.Projection("EPSG:4326");
-      var lonlat2 = new OpenLayers.LonLat(31.59,-8.784211).transform(map.getProjectionObject(), toProjection);
+
+var size = new OpenLayers.Size(30,30);
+var offset = new OpenLayers.Pixel(-(size.w/2), -size.h);
+var icon = new OpenLayers.Icon('http://media.nbcdfw.com/designimages/new_wx_78.png', size, offset);
+var markers = new OpenLayers.Layer.Markers( "Interesting Wind Energy Spots" );
+
+var iconsolar = new OpenLayers.Icon('http://cdn1.iconfinder.com/data/icons/solar_system_png/512/Sun.png', size, offset);
+var solar = new OpenLayers.Layer.Markers( "World Solar Energy Data" );
+
+
+//addMarker(new OpenLayers.Marker(new OpenLayers.LonLat(0,0),icon.clone()));
+//markers.addMarker(new OpenLayers.Marker(new OpenLayers.LonLat(-8, 31).transform(new OpenLayers.Projection("EPSG:4326"), new OpenLayers.Projection("EPSG:900913")),icon));
+ //markers.addMarker(new OpenLayers.Marker(new OpenLayers.LonLat(-71, -180).transform(new OpenLayers.Projection("EPSG:4326"), new OpenLayers.Projection("EPSG:900913")),icon.clone()));
+
+<?php
+//GetAllWind(90,80);
+GetAllWind(80,72,100);
+GetAllWind(72,60,200);
+GetAllWind(60,50,200);
+GetAllWind(50,40,200);
+GetAllWind(40,30,200);
+GetAllWind(30,20,100);
+GetAllWind(20,10,10);
+GetAllWind(10,0,100);
+GetAllWind(0,-10,100);
+GetAllWind(-10,-20,100);
+GetAllWind(-20,-30,100);
+GetAllWind(-30,-40,100);
+GetAllWind(-40,-50,100);
+GetAllWind(-50,-60,100);
+GetAllWind(-50,-72,100);
 
 
 
 
+?>
 
-//markers.addMarker(new OpenLayers.Marker(new OpenLayers.LonLat(0,0),icon.clone()));
-
+//map.addLayer(markers);
 	// need for permalink
 	var args = OpenLayers.Util.getParameters();
         if (args.lat && args.lon && args.zoom) {
